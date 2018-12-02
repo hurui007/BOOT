@@ -1,0 +1,13 @@
+server:
+    port: 8081
+    
+
+person: 
+    name: 胡锐
+    age: 23
+    maps: {'我是key':'我是value'}
+    list: ['tem1','tem2']
+    dog: 
+        name: 旺财
+        age: 1
+---

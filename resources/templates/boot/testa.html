@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>thymeleft测试</title>
+</head>
+<body>
+<p>我是thymeleaf测试页面</p>
+<p>下面是我从服务器回传的值</p>
+<!-- h:text="#{myvalue}" 将下面这个div的显示内容替换为服务器取的值 -->
+<div th:text="${myvalue}">如果服务器没有值，这里才显示</div>
+</body>
+</html>
